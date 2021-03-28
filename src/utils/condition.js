@@ -53,7 +53,7 @@ export function condition(condition) {
     case 'cloudly_day':
       return (icon = {
         name: 'cloud-sun',
-        color: '#1ec9ff',
+        color: '#ffd300',
       });
       break;
     case 'cloudly_night':
@@ -65,7 +65,7 @@ export function condition(condition) {
     case 'none_day':
       return (icon = {
         name: 'sun',
-        color: '#ffb300',
+        color: '#ffd300',
       });
       break;
     case 'none_night':
